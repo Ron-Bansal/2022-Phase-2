@@ -50,7 +50,7 @@ Numerically:
     - [x] 25th and 75th.
 
 Graphically:
-- [ ] Correlation Plot.
+- [x] Correlation Plot.
 - [ ] Graphing any Numerical Sections of the dataset.
 
 In addition:
