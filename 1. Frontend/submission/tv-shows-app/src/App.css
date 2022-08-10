@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+html {
+  padding: 1rem;
+  background-color: lavender;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-weight: 400;
+  padding: 0.5rem;
+  background-color: lavenderblush;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem !important;
+}
+
+.search {
+  padding-top: 2rem;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+#show-name {
+  height: 0.5rem !important;
+}
+
+.result {
+  text-align: left;
+  max-width: 600px !important;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.attribute {
+  font-weight: 600;
+}
