@@ -1,7 +1,7 @@
 # Microsoft Student Accelerator New Zealand 2022 Phase 2 - Submission
-Ron Bansal 
-Pathways completed: Frontend and Data Science 
-find the sumbission files in their respective pathway folder in this respository
+* **Ron Bansal **
+* Pathways completed: Frontend and Data Science 
+* find the sumbission files in their respective pathway folder in this respository
 
 ### What to learn more about MSA?
 Come visit our website to understand what we do: [Microsoft Student Accelerator New Zealand Website](http://aka.ms/nzmsawebsite)
