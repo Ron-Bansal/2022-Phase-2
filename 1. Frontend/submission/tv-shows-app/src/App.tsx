@@ -102,6 +102,7 @@ function App() {
                 {showInfo.rating.average}
                 <br />
                 <span className="attribute">Summary:</span> {summaryText}
+                {/* <span className="attribute">Summary:</span> {showInfo.summary} */}
                 <br />
               </p>
             </div>
