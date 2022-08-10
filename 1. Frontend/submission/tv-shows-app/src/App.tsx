@@ -8,16 +8,12 @@ import parse from "html-react-parser";
 
 
 function App() {
-  // Declare a new state variable, which we'll call "pokemonName"
-  const [pokemonName, setPokemonName] = useState("");
-  const [pokemonInfo, setPokemonInfo] = useState<undefined | any>(undefined);
-
-  const POKEMON_BASE_API_URL = "https://pokeapi.co/api/v2";
-
   const [showName, setShowName] = useState("");
   const [showSummary, setShowSummary] = useState("");
   const [showInfo, setShowInfo] = useState<undefined | any>(undefined);
-  const summaryText = parse(showInfo.summary);
+  // the parser below sometimes breaks the app so I have decided to comment it out
+  // but it would parse the summary in html format 
+  // let summaryText = parse(showInfo.summary);
 
   // const TV_SHOW_BASE_URL = "https://api.tvmaze.com/search/shows?q=";
   const TV_SHOW_SINGLE_BASE_URL =
@@ -47,9 +43,6 @@ function App() {
                 setShowName(prop.target.value);
               }}
             />
-            {/* <Button variant="outlined" onClick={search}>
-              Search
-            </Button> */}
             <Button
               variant="contained"
               type="submit"
@@ -61,31 +54,9 @@ function App() {
               Search
             </Button>
           </div>
-
-          {/* <p>You have entered {showName}</p> */}
         </Grid>
 
         <Grid className="result" item xs={6} md={8} sx={{ pr: "1rem" }}>
-          {/* {showInfo === undefined || showInfo === null ? (
-            <p>Show not found</p>
-          ) : (
-            <div id="show-result">
-              <h3> {showInfo.name} </h3>
-              <img src={showInfo.image.medium} />
-              <p>
-                <span className="attribute">Genres:</span> {showInfo.genres}
-                <br />
-                <span className="attribute">Language(s):</span>{" "}
-                {showInfo.language}
-                <br />
-                <span className="attribute">Rating:</span>{" "}
-                {showInfo.rating.average}
-                <br />
-                <span className="attribute">Summary:</span> {showInfo.summary}
-                <br />
-              </p>
-            </div>
-          )} */}
           {showInfo === undefined ? (
             <div></div>
           ) : (
@@ -101,8 +72,8 @@ function App() {
                 <span className="attribute">Rating:</span>{" "}
                 {showInfo.rating.average}
                 <br />
-                <span className="attribute">Summary:</span> {summaryText}
-                {/* <span className="attribute">Summary:</span> {showInfo.summary} */}
+                {/* <span className="attribute">Summary:</span> {summaryText} */}
+                <span className="attribute">Summary:</span> {showInfo.summary}
                 <br />
               </p>
             </div>
