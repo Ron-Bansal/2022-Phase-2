@@ -2,6 +2,7 @@
 * **Ron Bansal **
 * Pathways completed: Frontend and Data Science 
 * find the sumbission files in their respective pathway folder in this respository
+Data Science Pathway submission: https://github.com/Ron-Bansal/2022-Phase-2/blob/2f36f0c4e1cc7d90ec908e2d0af1875e72250944/3.%20Data%20Science/submission.ipynb
 
 ### What to learn more about MSA?
 Come visit our website to understand what we do: [Microsoft Student Accelerator New Zealand Website](http://aka.ms/nzmsawebsite)
