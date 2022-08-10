@@ -1,7 +1,6 @@
 # Microsoft Student Accelerator New Zealand 2022 Phase 2 - Submission
 **Ron Bansal **
-* Pathways completed: Frontend and Data Science 
-* find the submission files in their respective pathway folder in this respository
+* Pathways completed: Frontend and Data Science, find the submission files in their respective pathway folder in this respository
 - Front End Development submission: https://github.com/Ron-Bansal/2022-Phase-2/blob/ac0dcc84778e358267b0c6926914894b8b17cc14/1.%20Frontend/submission/tv-shows-app/src/App.tsx
 - Data Science Pathway submission: https://github.com/Ron-Bansal/2022-Phase-2/blob/2f36f0c4e1cc7d90ec908e2d0af1875e72250944/3.%20Data%20Science/submission.ipynb
 
